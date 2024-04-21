@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./programs/shield-dex-pg/Cargo.toml"
+    ]
+}
