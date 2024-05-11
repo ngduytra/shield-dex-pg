@@ -35,7 +35,7 @@ pub struct Initialize<'info> {
     #[account(mut)]
     pub authority: Signer<'info>,
     /// Which config the pool belongs to.
-    pub platform_config: Account<'info, PlatformConfig>,
+    pub platform_config: Box<Account<'info, PlatformConfig>>,
     /// Pool
     #[account(init, payer = authority,  space = Pool::LEN)]
     pub pool: Account<'info, Pool>,

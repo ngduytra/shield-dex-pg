@@ -6,7 +6,7 @@ pub mod instructions;
 pub mod schema;
 pub mod utils;
 
-declare_id!("6ygp2zhLR4Mp7z6PDRp5K2W314YAGJ2Sx6WUp72dNF4H");
+declare_id!("7xCZgNDZ6da6Rup5eztPfPxuVNwVuvRac3nQK9U5ggEg");
 
 pub mod admin {
     use anchor_lang::prelude::declare_id;

@@ -5,13 +5,13 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-shield_dex_pg = "6ygp2zhLR4Mp7z6PDRp5K2W314YAGJ2Sx6WUp72dNF4H"
+shield_dex_pg = "7xCZgNDZ6da6Rup5eztPfPxuVNwVuvRac3nQK9U5ggEg"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/Users/nguyenduytra/.config/solana/id.json"
 
 [scripts]

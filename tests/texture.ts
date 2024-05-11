@@ -95,7 +95,7 @@ export default class Texture {
 
     // Faucet to Alice
     await transferLamports(
-      2 * web3.LAMPORTS_PER_SOL,
+      1 * web3.LAMPORTS_PER_SOL,
       this.Alice.keypair.publicKey,
       this.provider
     );
@@ -138,7 +138,7 @@ export default class Texture {
 
     // Faucet to Bob
     await transferLamports(
-      2 * web3.LAMPORTS_PER_SOL,
+      1 * web3.LAMPORTS_PER_SOL,
       this.Bob.keypair.publicKey,
       this.provider
     );
